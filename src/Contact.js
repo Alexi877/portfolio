@@ -4,9 +4,10 @@ class Contact extends React.Component {
 	render() {
 		return (
 <div>
-			<h1> Contact </h1>
-			<h2>Email: alexi877@live.com</h2>
-			<h2> Cell Phone: (240) 241-2608</h2>
+			<h1> Contact info inside Resume now</h1>
+			<h2>Email: Removed due to a tip</h2>
+			<h2> Cell Phone: Removed please check Resume </h2>
+
 </div>
 			)
 	}
