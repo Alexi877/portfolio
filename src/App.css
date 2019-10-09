@@ -2,10 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
+background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
 }
 
 .App-header {
@@ -30,4 +32,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bar {
+  margin: auto;
+  margin-top: .615em;
+  margin-bottom: .615em;
+  text-align: right;
+}
+
+.links {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+  display: inline-block;
+
+}
+.links:hover {
+  color: lightgrey;
+}
+.category-tabs{
+  text-align: center;
+  color: white;
+  background:rgb(128, 0, 0);
+  padding: .15em;
+  border-radius: 2em;
+  margin: auto;
+  width: 50%;
+}
+.about{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.card {
+  padding: 1em;
+  background-color: rgb(128, 0, 0);
+
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  display: inline-block;
+  text-align:center;
+}
+.projectimage{
+  border-radius: 1em;
+}
+.projectimage:hover{
+  transform: scale(1.01);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.outercard{
+  text-align: center;
+  margin: auto;
+}
+
+.para{
+  text-decoration: none !important;
+}
+.about{
+  margin: auto;
+  margin-left: 5em;
+  margin-right: 5em;
 }

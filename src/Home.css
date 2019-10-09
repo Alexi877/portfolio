@@ -1,0 +1,21 @@
+.homediv {
+	color: white;
+	background-color: rgb(128, 0, 0);
+	width: 75%;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.avatar {
+		margin-top: 5em;
+		border-radius: 10em;
+}
+.main {
+	text-align: center;
+}
+p {
+	border-top: 7px dotted white;
+	padding: 1em;
+	width: 50%;
+	margin: auto;
+}
