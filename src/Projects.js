@@ -29,7 +29,7 @@ class Projects extends React.Component {
 			<h5 className ="para" >Phone store with paypal checkout </h5>
 			</a>
 
-			<a className = "card" href = "https://asmartbrain.herokuapp.com/" >
+			<a className = "card" href = "https://as-realstate.herokuapp.com/" >
 			<h4>House Finder</h4>
 			<img className = "projectimage" 
 			src ={Realstate}
@@ -39,7 +39,7 @@ class Projects extends React.Component {
 			<h5 className ="para" >Real state website for everyone</h5>
 			</a>
 
-			<a className = "card" href = "https://asmartbrain.herokuapp.com/" >
+			<a className = "card" href = "https://as-restaurant.herokuapp.com/" >
 			<h4>Restaurant</h4>
 			<img className = "projectimage" 
 			src ={restaurant}
